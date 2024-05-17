@@ -1,0 +1,13 @@
+:root {
+
+  --vp-home-hero-image-background-image: linear-gradient(135deg, #46485d 10%, #354fb2 100%);
+  --vp-home-hero-image-filter: blur(150px);
+}
+
+.center 
+{
+  width: auto;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}

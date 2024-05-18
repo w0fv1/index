@@ -43,7 +43,7 @@ features:
 
 <br>
 <center>
-<iframe style=" width: 80%;height:600px;" src="https://www.bilibili.com/blackboard/live/live-activity-player.html?cid=7418658&quality=0" frameborder="no"    framespacing="0" scrolling="no" allow="autoplay; encrypted-media" allowfullscreen="true"></iframe>
+<iframe style="height:600px;" src="https://www.bilibili.com/blackboard/live/live-activity-player.html?cid=7418658&quality=0" frameborder="no"    framespacing="0" scrolling="no" allow="autoplay; encrypted-media" allowfullscreen="true"></iframe>
 </center>
 
 <br>

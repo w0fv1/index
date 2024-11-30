@@ -62,8 +62,9 @@ features:
 
 <div class ="center">
 
-| QQ   | 1461754255                                             |
+| 平台   | 联系方式                                             |
 | ---- | ------------------------------------------------------ |
+| QQ   | 1461754255                                             |
 | 微信 | w0fbi1                                                 |
 | 邮箱 | wofbi1@outlook.com                                     |
 | 社群 | [w0fv1.dev / 编程小屋](https://qm.qq.com/q/osNLzhTIaI) |

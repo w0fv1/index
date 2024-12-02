@@ -11,9 +11,9 @@ export default defineConfig({
 
     nav: [
       { text: '主页', link: '/' },
-      { text: '独立开发', link: '/indev/' },
-      { text: '知乎', link: 'https://www.zhihu.com/people/wu-fa-bei-ya' },
-      { text: 'BiliBili', link: 'https://space.bilibili.com/25657230' },
+      // { text: '独立开发', link: '/indev/' },
+      { text: '知乎', link: 'https://www.zhihu.com/people/wu-fa-bei-ya/' },
+      { text: 'BiliBili', link: 'https://space.bilibili.com/25657230/' },
     ],
 
     footer: {

@@ -17,7 +17,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '<a href="http://beian.miit.gov.cn/">备案号：京ICP备04000001号-2</a>',
+      // message: '<a href="http://beian.miit.gov.cn/">备案号：京ICP备04000001号-2</a>',
       copyright: `版权所有 © 2024-${new Date().getFullYear()} w0fv1`
     },
     sidebar: {

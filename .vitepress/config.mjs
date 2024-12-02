@@ -39,6 +39,6 @@ export default defineConfig({
     }
   },
   sitemap:{
-    hostname: 'https://wofbi1.cn'
+    hostname: 'https://w0fv1.dev'
   }
 })

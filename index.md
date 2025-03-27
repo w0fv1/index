@@ -22,6 +22,8 @@ features:
   - title: 稳定可靠
     details: 稳定的接口才会被调用.
 ---
+<!-- 引入 MDI 图标库 -->
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
 
 <style>
 .project-grid {
@@ -43,6 +45,13 @@ features:
   font-weight: bold;
 }
 
+.project-card h3 i {
+  margin-right: 8px;
+  font-size: 1.2em;
+  vertical-align: middle;
+  color: var(--vp-c-brand);
+}
+
 .project-card button {
   background-color: var(--vp-c-brand);
   color: white;
@@ -62,43 +71,41 @@ features:
 ## 项目介绍
 
 <div class="project-grid">
-<div class="project-card">
-  <h3>火合网 firco.cn</h3>
-  <p>提供 ChatGPT、Netflix 等账号合租服务，用户超千人，平台稳定运营，月收入持续增长。</p>
-  <button onclick="window.open('https://firco.cn', '_blank')">了解更多 →</button>
-</div>
-
-<div class="project-card">
-  <h3>Vaadmin</h3>
-  <p>基于 Vaadin 的中后台开发框架，模块化设计，支持快速构建企业级系统。</p>
-  <button onclick="window.open('https://github.com/w0fv1/vaadmin', '_blank')">了解更多 →</button>
-</div>
-
-<div class="project-card">
-  <h3>Userver</h3>
-  <p>统一用户认证与服务集成平台，支持权限、支付、邮件、监控等基础服务。</p>
-  <button onclick="window.open('https://github.com/w0fv1/userver', '_blank')">了解更多 →</button>
-</div>
-
+  <div class="project-card">
+    <h3><i class="mdi mdi-fire"></i> 火合网 firco.cn</h3>
+    <p>提供 ChatGPT、Netflix 等账号合租服务，用户超千人，平台稳定运营，月收入持续增长。</p>
+    <button onclick="window.open('https://firco.cn', '_blank')">了解更多 →</button>
+  </div>
 
   <div class="project-card">
-    <h3>Vertree</h3>
+    <h3><i class="mdi mdi-view-dashboard"></i> Vaadmin</h3>
+    <p>基于 Vaadin 的中后台开发框架，模块化设计，支持快速构建企业级系统。</p>
+    <button onclick="window.open('https://github.com/w0fv1/vaadmin', '_blank')">了解更多 →</button>
+  </div>
+
+  <div class="project-card">
+    <h3><i class="mdi mdi-account-lock"></i> Userver</h3>
+    <p>统一用户认证与服务集成平台，支持权限、支付、邮件、监控等基础服务。</p>
+    <button onclick="window.open('https://github.com/w0fv1/userver', '_blank')">了解更多 →</button>
+  </div>
+
+  <div class="project-card">
+    <h3><i class="mdi mdi-source-branch"></i> Vertree</h3>
     <p>单文件版本管理系统，基于 Dart 开发，专为简单项目提供轻量级版本控制服务。</p>
     <button onclick="window.open('https://github.com/w0fv1/vertree', '_blank')">了解更多 →</button>
   </div>
 
   <div class="project-card">
-    <h3>Birespi</h3>
+    <h3><i class="mdi mdi-robot"></i> Birespi</h3>
     <p>基于 AI 的自动语音回复弹幕 Bot，通过 Python 实现直播间自动互动，提升用户体验。</p>
     <button onclick="window.open('https://github.com/w0fv1/birespi', '_blank')">了解更多 →</button>
   </div>
 
   <div class="project-card">
-    <h3>BiliVideo2article</h3>
+    <h3><i class="mdi mdi-file-document-multiple"></i> BiliVideo2article</h3>
     <p>利用 Bilibili API 和 OpenAI API，将视频转换为 Markdown 格式文章，助力内容传播与再创作。</p>
     <button onclick="window.open('https://github.com/w0fv1/biliVideo2article', '_blank')">了解更多 →</button>
   </div>
-
 </div>
 
 ## 我能提供什么
